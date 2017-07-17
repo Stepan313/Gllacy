@@ -1,3 +1,18 @@
+var link = document.querySelector(".btn-address");
+var popup = document.querySelector(".feedback");
+var close=popup.querySelector(".close");
+
+link.addEventListener("click", function(a){
+	a.preventDefault();
+	popup.classList.toggle("show");
+});
+
+close.addEventListener("click", function(event) {
+event.preventDefault();
+popup.classList.remove("show");
+popup.classList.remove("error");
+});
+
 ymaps.ready(function () {
     var myMap = new ymaps.Map('map', {
             center: [59.93919885190054, 30.32991749740603],
@@ -19,19 +34,4 @@ ymaps.ready(function () {
         });
  
     myMap.geoObjects.add(myPlacemark);
-});
-
-var link = document.querySelector(".btn-address");
-var popup = document.querySelector(".feedback");
-var close=popup.querySelector(".close");
-
-link.addEventListener("click", function(a){
-	a.preventDefault();
-	popup.classList.toggle("show");
-});
-
-close.addEventListener("click", function(event) {
-event.preventDefault();
-popup.classList.remove("show");
-popup.classList.remove("error");
 });
