@@ -535,12 +535,14 @@ body > input{
 .banner-l{
 	background: #b2001e url(img/banner-l.jpg) no-repeat;
 	background-size: 100% 100%;
+	float: left;
 	
 	
 }
 .banner-ll{
 	background: #b2001e url(img/banner-ll.jpg) no-repeat;
 	background-size: 100% 100%;
+	float: right;
 	
 }
 h2{
