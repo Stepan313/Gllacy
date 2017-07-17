@@ -525,10 +525,12 @@ body > input{
 }
 .banner{
 	margin-top: 3.5%;
+	overflow: hidden;
 }
 .banner div{
 	display: inline-block;
 	width: 48.9%;
+	height: 229px;
 	padding: 2.1% 1.67%;
 	border-radius: 16px;
 }
@@ -540,7 +542,7 @@ body > input{
 	
 }
 .banner-rr{
-	background: #b2001e url(img/banner-ll.jpg) no-repeat;
+	background: #b2001e url(img/banner-rr.jpg) no-repeat;
 	background-size: 100% 100%;
 	float: right;
 	
