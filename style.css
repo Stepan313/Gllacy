@@ -525,7 +525,6 @@ body > input{
 }
 .banner{
 	margin-top: 3.5%;
-	overflow: hidden;
 }
 .banner div{
 	display: inline-block;
