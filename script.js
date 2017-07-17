@@ -13,6 +13,7 @@ popup.classList.remove("show");
 popup.classList.remove("error");
 });
 
+
 ymaps.ready(function () {
     var myMap = new ymaps.Map('map', {
             center: [59.93919885190054, 30.32991749740603],
@@ -35,3 +36,4 @@ ymaps.ready(function () {
  
     myMap.geoObjects.add(myPlacemark);
 });
+
